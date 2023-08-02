@@ -1,4 +1,4 @@
-package com.ownProject.TaskManagementApp.service;
+package com.examly.springapp.service;
 
 import java.util.List;
 import java.util.Objects;
@@ -6,9 +6,9 @@ import java.util.Objects;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ownProject.TaskManagementApp.exception.ResourceNotFoundException;
-import com.ownProject.TaskManagementApp.model.Task;
-import com.ownProject.TaskManagementApp.repository.TaskRepository;
+import com.examly.springapp.exception.ResourceNotFoundException;
+import com.examly.springapp.model.Task;
+import com.examly.springapp.repository.TaskRepository;
 
 @Service
 public class TaskServiceImpl  implements TaskService {

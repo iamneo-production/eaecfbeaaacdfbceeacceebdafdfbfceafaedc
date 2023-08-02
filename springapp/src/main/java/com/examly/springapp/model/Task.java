@@ -1,4 +1,4 @@
-package com.ownProject.TaskManagementApp.model;
+package com.examly.springapp.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

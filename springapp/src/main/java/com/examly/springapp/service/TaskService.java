@@ -1,8 +1,8 @@
-package com.ownProject.TaskManagementApp.service;
+package com.examly.springapp.service;
 
 import java.util.List;
 
-import com.ownProject.TaskManagementApp.model.Task;
+import com.examly.springapp.model.Task;
 
 public interface TaskService {
 
