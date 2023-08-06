@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ownProject.TaskManagementApp.model.Task;
-import com.ownProject.TaskManagementApp.service.TaskService;
+import com.examly.springapp.model.Task;
+import com.examly.springapp.service.TaskService;
 
 @RestController
 //@CrossOrigin( origins="http://localhost:3000/" )
