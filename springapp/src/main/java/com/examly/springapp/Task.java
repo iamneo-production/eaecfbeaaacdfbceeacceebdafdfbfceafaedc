@@ -1,5 +1,7 @@
 package com.examly.springapp;
 
+import javax.persistence.ColumnResult;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -19,9 +21,9 @@ public class Task {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long taskId;
 
-	@Column
+	@javax.persistence.Column
 	private String taskHolderName;
-	@Column
+	@javax.persistence.Column
 	private String taskDate;
 	@Column
 	private String taskName;
